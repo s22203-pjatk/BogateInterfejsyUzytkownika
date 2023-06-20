@@ -28,7 +28,7 @@ const PlatformIconList = ({ platforms }: Props) => {
     web: BsGlobe,
     ios: BsApple,
     nintendo: SiNintendo,
-    mac: RiMacLine
+    mac: RiMacLine,
   };
 
   return (
