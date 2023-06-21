@@ -1,17 +1,17 @@
+import { HStack, Icon } from "@chakra-ui/react";
+import { BsApple, BsGlobe } from "react-icons/bs";
 import {
-  FaWindows,
-  FaPlaystation,
-  FaXbox,
+  FaAndroid,
   FaApple,
   FaLinux,
-  FaAndroid,
+  FaPlaystation,
+  FaWindows,
+  FaXbox,
 } from "react-icons/fa";
-import { BsApple, BsGlobe } from "react-icons/bs";
-import { SiNintendo } from "react-icons/si";
-import { RiMacLine } from "react-icons/ri";
-import { Platform } from "../hooks/useGames";
-import { HStack, Icon } from "@chakra-ui/react";
 import { IconType } from "react-icons/lib";
+import { RiMacLine } from "react-icons/ri";
+import { SiNintendo } from "react-icons/si";
+import { Platform } from "../hooks/usePlatforms";
 
 interface Props {
   platforms: Platform[];
