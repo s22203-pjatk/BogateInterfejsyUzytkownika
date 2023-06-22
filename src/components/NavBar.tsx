@@ -18,5 +18,3 @@ const NavBar = ({ onSearch }: Props) => {
 };
 
 export default NavBar;
-
-//justifyContent='space-between'
