@@ -1,6 +1,10 @@
-
 const GameDetailPage = () => {
-  return <div>GameDetailPage</div>;
+
+  return (
+    <>
+      GameDetailPage
+    </>
+    );
 };
 
 export default GameDetailPage;
